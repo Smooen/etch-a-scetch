@@ -1,0 +1,12 @@
+.container {
+    width: 500px;
+    height: 500px;
+}
+
+.grid {
+    box-sizing: border-box;
+    float:left;
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+}
