@@ -4,7 +4,6 @@ const clearButton = document.getElementById("clearButton");
 
 const resizeButton = document.getElementById("resizeButton");
 
-// let size = prompt("Enter amount of Squares per side");
 let initSize = 20;
 
 function calcSize(size) {
@@ -47,7 +46,6 @@ function deleteCanvas(){
 }
 
 function resizeCanvas(newSize) {
-    console.log("??")
     deleteCanvas();
     createCanvas(newSize);
 }
